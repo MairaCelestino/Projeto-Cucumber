@@ -8,8 +8,10 @@ public class AprenderCucumber {
 	@Given("^que criei o arquvio corretamente$")
 	public void que_criei_o_arquvio_corretamente() throws Throwable {
 		// Write code here that turns the phrase above into concrete actions
-		throw new PendingException();
-	}
+		//throw new PendingException();
+		//throw new RuntimeException();
+		System.out.println("passou aqui!");
+		}
 
 	@When("^executá-lo$")
 	public void executá_lo() throws Throwable {
